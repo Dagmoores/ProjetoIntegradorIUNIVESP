@@ -1,4 +1,4 @@
-# ProjetoIntegradorIUnivesp
+# Projeto Integrador I - Univesp
 Repositório destinado ao desenvolvimento do Projeto Integrador I - Univesp T20 - polo Taquaral
 
 O projeto objetiva o desenvolvimento de uma web site utilizando framework web (da linguagem JavaScript), com banco de dados integrador e sendo realizado controle de versões. 
