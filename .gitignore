@@ -4,10 +4,12 @@
 *.swo
 *.swp
 *.swn
+.env
 
 # Directories #
 ###############
 logs/
+venv/
 
 # Specific files #
 ##################
