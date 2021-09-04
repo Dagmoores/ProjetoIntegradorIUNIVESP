@@ -7,4 +7,4 @@ class Books(models.Model):
     slug = models.SlugField(max_length=255, unique = True)
     author = models.CharField(max_length=100)
     body = models.TextField()
-    bookPhoto = models.ImageField(null = True, blank = True, ) #Parei aqui
+    bookPhoto = models.ImageField(null = True, blank = True)
