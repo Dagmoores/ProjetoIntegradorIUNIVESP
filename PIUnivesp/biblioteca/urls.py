@@ -1,5 +1,7 @@
+from sys import setswitchinterval
 from django.urls import path
 from django.urls.resolvers import URLPattern
+from django.contrib.staticfiles.urls import static
 
 from . import views
 
