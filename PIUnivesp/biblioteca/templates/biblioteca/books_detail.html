@@ -1,0 +1,13 @@
+{% extends "biblioteca/base.html" %}
+
+{% block title %} {{ books.title }} {% endblock %}  
+
+{% block content %} 
+    <h2>{{ books.title }}</h2>
+    <h3>{{ books.author }}</h3>
+
+    {{ books.body|linebreaks }}  
+
+    <img src="{{ books.bookPhoto }}">
+
+{% endblock %}

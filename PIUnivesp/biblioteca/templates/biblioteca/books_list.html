@@ -1,1 +1,13 @@
 {% extends "biblioteca/base.html" %}
+
+{% block title %} Biblioteca Virtual Taquaral-SP {% endblock %} 
+
+{% block content %} 
+
+    {% for books in books_list %}
+        <article>
+            <li>{{books.title}}</li>
+        </article>
+    {% endfor %}
+
+{% endblock %}
