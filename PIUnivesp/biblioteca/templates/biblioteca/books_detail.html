@@ -8,6 +8,6 @@
 
     {{ books.body|linebreaks }}  
 
-    <img src="{{ books.bookPhoto.url }}">
+    <a href = "{{books.link}}"><img src="{{ books.bookPhoto.url }}"></a>
 
 {% endblock %}
