@@ -6,7 +6,7 @@
 
     {% for books in books_list %}
         <article>
-            <li>{{books.title}}</li>
+            <li><a href = "{{books.slug}}">{{books.title}}</a></li>
         </article>
     {% endfor %}
 
