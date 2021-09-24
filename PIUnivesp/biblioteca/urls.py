@@ -8,6 +8,7 @@ from . import views
 app_name = "biblioteca"
 
 urlpatterns = [
-    path("", views.BooksListView.as_view(), name = "list"),
+    path('', views.Home.as_view(), name = "index"),
+    path('biblioteca/', views.BooksListView.as_view(), name = "list"),
     path("<slug:slug>/", views.BooksDeitalView.as_view(), name = "detail"),
 ]

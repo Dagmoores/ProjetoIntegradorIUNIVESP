@@ -1,4 +1,4 @@
-from django.views.generic import DetailView, ListView
+from django.views.generic import DetailView, ListView, TemplateView
 
 from .models import Books
 
@@ -7,3 +7,6 @@ class BooksListView(ListView):
 
 class BooksDeitalView(DetailView):
     model = Books
+
+class Home(TemplateView):
+    template_name = './biblioteca/index.html'
