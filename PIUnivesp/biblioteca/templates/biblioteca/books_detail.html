@@ -8,6 +8,9 @@
 
     {{ books.body|linebreaks }}  
 
-    <a href = "{{books.link}}"><img src="{{ books.bookPhoto.url }}"></a>
+    <div class = "imgContainer">
+        <a href = "{{books.link}}"><img src="{{ books.bookPhoto.url }}"></a>
+    </div>    
+
 
 {% endblock %}
