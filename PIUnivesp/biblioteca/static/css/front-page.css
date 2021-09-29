@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d8edc8;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    border-bottom: #67b7b3 3px solid;
+}
+.logo {
+    width:20%;
+}
+
+.titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    width: 65%;
+    color: #ff6969;
+    text-align: center;
+    padding-top: 1%;
+}
