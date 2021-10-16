@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}xxxxxxxxxxxxxxxx{% endblock %}</title>
+    <title>{% block title %}Biblioteca Digital Taquaral (SP){% endblock %}</title>
     <link href="{% static 'css/front-page.css' %}" rel = "stylesheet">
 </head>
 <body>
@@ -18,6 +18,7 @@
             <div class ="titulo">
                 <h1>Biblioteca Digital de Taquaral</h1>
             </div><!--titulo-->
+            <div class="logo2"><img src="{% static 'img/logo_compartilhar.png'%}"/></div><!--logo2-->
             <div class="corpo">
 
                 <h2 class="subtitulo">Bem-vindo à Biblioteca Digital do Município de Taquaral (SP)
@@ -27,16 +28,20 @@
                 A partir da seção “Biblioteca Online”, o indivíduo interessado consegue consultar o acervo disponível, entrar em contato com os responsáveis pelos livros disponibilizados no site e fazer o download dos livros de seu interesse.
                 O acervo conta com títulos clássicos da literatura nacional e internacional, livros didáticos, dicionários, livros infantis, infanto-juvenis, trilogias e uma diversidade de gêneros.
                 Agilizando essa prestação de serviços e proporcionando maior interação entre a Biblioteca Digital Municipal e seus usuários, a Prefeitura Municipal de Taquaral (SP) espera que crianças, jovens, adultos e familiares possam usufruir de bons momentos de leitura e de enriquecimento pessoal e cultural.
-                <br><br>
-                <span class="cliqueAqui" href="#"><a href="">Clique aqui</a></span> para consultar o acervo da Biblioteca Online
-                <br><br>
-                <span class="cliqueAqui" href="#"><a href="">Clique aqui</a></span> para saber os Termos de Uso da Biblioteca Digital Municipal
+
         </div><!--texto-->
         </div><!--corpo-->
         </div><!--center-->
 
-        <div class="blocoImagemCriancas"><img src = "{% static 'img/criancas_escada.png' %}"/></div><!--imagemCriancas-->
-        
+        <div class = "textoCliqueAqui">
+            <br><br>
+            <span class="cliqueAqui"><a href="biblioteca/">Clique aqui</a></span> para consultar o acervo da Biblioteca Online
+            <br><br>
+            <span class="cliqueAqui" href="#"><a href="">Clique aqui</a></span> para saber os Termos de Uso da Biblioteca Digital Municipal
+        </div><!--textoCliqueAqui-->
+        <div class="blocoImagemCriancas"><img src = "{% static 'img/criancas_lendo.png' %}"/></div><!--imagemCriancas-->
+
     </header>
 
+    </body>
 </html>

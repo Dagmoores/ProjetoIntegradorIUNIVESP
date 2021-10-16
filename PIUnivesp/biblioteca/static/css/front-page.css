@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #d8edc8;
 }
 
 .center {
@@ -17,15 +16,20 @@
 }
 .logo {
     width:20%;
+    padding-top: 7px;
 }
 
+.logo2 {
+    width: 20%;
+    padding: 8px;
+}
 .titulo {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
-    width: 65%;
+    width: 60%;
     color: #ff6969;
     text-align: center;
-    padding-top: 1%;
+    padding-top: 2%;
     border-bottom: #67b7b3 3px solid;
 }
 
@@ -44,6 +48,12 @@
     text-align: justify;
     margin-top: 150 px;
     height:10 px;
+}
+
+.textoCliqueAqui {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
 }
 
 .cliqueAqui{
