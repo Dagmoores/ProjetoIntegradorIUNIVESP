@@ -1,6 +1,7 @@
-{% extends "biblioteca/base.html" %}
+{% extends "biblioteca/baseList.html" %}
 
-{% block title %} Biblioteca Virtual Taquaral-SP {% endblock %} 
+{% block title %} Biblioteca Digital Taquaral (SP) {% endblock %} 
+
 
 {% block content %} 
 
@@ -9,5 +10,6 @@
             <li><a href = "{{books.slug}}">{{books.title}}</a></li>
         </article>
     {% endfor %}
+
 
 {% endblock %}

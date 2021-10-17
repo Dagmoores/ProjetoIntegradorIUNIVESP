@@ -1,0 +1,51 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="pt">
+
+<html>
+
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <link href="{% static 'css/books_list.css' %}" rel = "stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo"><img src="{% static 'img/logo_univesp.png'%}"/></div><!--logo-->
+        <div class ="titulo">
+            <h1><a class='a1' href="../">Biblioteca Digital de Taquaral</a></h1>
+        </div><!--titulo-->
+        <div class="logo2"><img src="{% static 'img/logo_compartilhar.png'%}"/></div><!--logo2-->
+    </header>
+
+
+
+    <main>
+        <p>Confira nossa lista de títulos:</p>
+
+        <br><br><br>
+
+    <div class="conteudoCentral">
+
+    <div class="imagemEsquerda">
+        <img src="{% static 'img/estante_de_livros_lateral.png'%}"/>
+    </div><!--imagemEsquerda-->
+
+    <div class="listaDeLivros">
+        {% block content %}
+        {% endblock %}
+    </div><!--listaDeLivros-->
+
+    <div class="imagemDireita">
+        <img src="{% static 'img/estante_de_livros_lateral.png'%}"/>
+    </div><!--imagemDireita-->
+
+    </div><!--conteudoCentral-->
+
+    </main>
+</body>
+
+</html>
