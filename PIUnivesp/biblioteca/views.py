@@ -10,3 +10,6 @@ class BooksDeitalView(DetailView):
 
 class Home(TemplateView):
     template_name = './biblioteca/index.html'
+
+class TermsOfService(TemplateView):
+    template_name = './biblioteca/termsOfService.html'

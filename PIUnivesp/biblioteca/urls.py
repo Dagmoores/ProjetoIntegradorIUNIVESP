@@ -11,5 +11,6 @@ app_name = "biblioteca"
 urlpatterns = [
     path('', views.Home.as_view(), name = "index"),
     path('biblioteca/', views.BooksListView.as_view(), name = "list"),
-    path("biblioteca/<slug:slug>/", views.BooksDeitalView.as_view(), name = "detail"), 
+    path("biblioteca/<slug:slug>/", views.BooksDeitalView.as_view(), name = "detail"),
+    path('termsOfService/', views.TermsOfService.as_view(), name = 'termsOfService'), 
 ]
