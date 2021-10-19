@@ -3,11 +3,18 @@
 {% block title %} {{ books.title }} {% endblock %}  
 
 {% block content %} 
+
     <h2>{{ books.title }}</h2>
     <h3>{{ books.author }}</h3>
+    <br><br>
 
-    {{ books.body|linebreaks }}  
+    <div class ="corpoDoTexto">
+    {{ books.body|linebreaks }}
+    </div><!--corpoDoTexto-->  
 
+    <br><br>
+    <p class="cliqueNaImagem">Clique na imagem abaixo para acessar o livro</p>
+    <br>
     <div class = "imgContainer">
         <a href = "{{books.link}}"><img src="{{ books.bookPhoto.url }}"></a>
     </div>    
