@@ -37,3 +37,20 @@
     width: 100%;
 }
 
+.a1 {
+    text-decoration: none !important;
+    color:inherit;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    width: 60%;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    border: black 2px solid;
+}
