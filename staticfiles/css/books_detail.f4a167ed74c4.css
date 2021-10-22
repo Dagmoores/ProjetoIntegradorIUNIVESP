@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.a1 {
+    text-decoration: none;
+    color: inherit;
+}
+.conteudoCentral {
+    display: flex;
+}
+
+.titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    width: 60%;
+    color: #ff6969;
+    text-align: center;
+    padding-top: 2%;
+    border-bottom: #67b7b3 3px solid;
+}
+
+.logo {
+    width:20%;
+    padding-top: 7px;
+}
+
+.logo2 {
+    width: 20%;
+    padding: 9px;
+}
+
+header {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 2%;
+        text-align: center;
+        margin-top: 150 px;
+        height:300 px;
+}
+
+.tituloEAutor {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.cliqueNaImagem {
+    color: red;
+    font-weight: bold;
+}
+
+.corpoDoTexto {
+    text-align: center;
+    font-size: large;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
