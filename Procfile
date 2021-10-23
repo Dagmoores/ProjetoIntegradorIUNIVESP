@@ -1,1 +1,1 @@
-web:gunicorn PIUnivesp.wsgi
+web: gunicorn PIUnivesp.wsgi
