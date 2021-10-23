@@ -86,7 +86,7 @@ DATABASES = {
         'NAME': 'dkofamed',
         'USER':'dkofamed',
         'PASSWORD':'t_PrImXQs2uMgEwVwUix3QNBeKojICKT',
-        'HOST':'fanny.db.elephantsql.com ',
+        'HOST':'fanny.db.elephantsql.com',
         'PORT':'5432',
     }
 }
