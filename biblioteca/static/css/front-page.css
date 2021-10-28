@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #A5CBC3;
 }
 
 .center {
@@ -25,12 +26,12 @@
 }
 .titulo {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
+    font-size: medium;
     width: 60%;
-    color: #ff6969;
+    color: #100B00;
     text-align: center;
     padding-top: 2%;
-    border-bottom: #67b7b3 3px solid;
+    border-bottom: #EFFFC8 3px solid;
 }
 
 .corpo {
