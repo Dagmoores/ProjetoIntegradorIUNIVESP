@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #A5CBC3;
+    background-color: #A5CBC3;   
 }
 
 .center {
@@ -66,4 +66,14 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.marca-dagua {
+    background:url("../img/marca-dagua.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
 }
