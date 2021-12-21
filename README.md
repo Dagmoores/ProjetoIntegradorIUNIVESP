@@ -9,4 +9,5 @@ Nosso plano é a construção de uma Biblioteca Virtual para atender às necessi
 **Projeto Fianlizado.**
 
 Site desenvolvido: http://bibliotecadigitaltaquaral.herokuapp.com/
+
 Apresentação do projeto por vídeo: https://youtu.be/nr3serfzAhI
